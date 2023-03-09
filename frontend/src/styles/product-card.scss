@@ -1,0 +1,70 @@
+@import '../components/UI/colors/Colors.scss';
+@import '../components/UI//media-queries/MediaQueries.scss';
+
+.product-card {
+    &-item {
+        border: 1px solid $secondary;
+        text-align: center;
+        padding: 30px;
+    }
+
+    &-img {
+        margin-bottom: 20px;
+        transition: .4s;
+    }
+
+    &-img:hover {
+        transform: scale(1.1);
+    }
+
+    &-img_solo {
+        width: 150px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    &-content h5 a {
+        color: $tertiary;
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+
+    &-content h5 a:hover {
+        text-decoration: underline !important;
+    }
+
+    &-content h5 {
+        margin-bottom: 30px;
+    }
+
+    &-price {
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: $primary;
+    }
+}
+
+
+@include laptop-devices { 
+    .product-card {
+        &-content h5 a {
+            font-size: 0.8rem;
+        }
+
+        &-item {
+            padding: 20px;
+        }
+    }
+}
+
+@include mobile-devices { 
+    .product-card {
+        &-content_container {
+            flex-direction: column;
+        }
+
+        &-price {
+            margin-bottom: 5px;
+        }
+    }
+}

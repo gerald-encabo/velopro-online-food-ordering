@@ -1,0 +1,52 @@
+@import '../components/UI/colors/Colors.scss';
+
+.cart-item {
+    padding-bottom: 10px;
+    border-bottom: 1px solid $secondary;
+
+    &-info img {
+        width: 35px;
+        height: 35px;
+        object-fit: cover;
+    }
+
+    &-product-title {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    &-product-price {
+        font-size: 0.8rem;
+    }
+
+    &-product-price span {
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: $primary;
+    }
+
+    &-increase_decrease_btn {
+        background: $secondary;
+        padding: 2px 5px;
+        border-radius: 5px;
+        width: 40%;
+    }
+
+    &-increase_btn, &-decrease_btn {
+        cursor: pointer;
+    }
+
+    &-delete_btn {
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    &-product_list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
