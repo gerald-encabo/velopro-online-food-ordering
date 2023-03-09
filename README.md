@@ -9,4 +9,4 @@ The front-end is to demostrate Redux Toolkit and React features including hook, 
 https://velopro-online-food-ordering.vercel.app/home
 
 #### Main Page Display:
-![dddd](https://user-images.githubusercontent.com/15988182/224137008-a0fa5214-6940-415d-bb53-8740d66da607.JPG)
+![Capture](https://user-images.githubusercontent.com/15988182/224177418-cce2d4b5-bbab-481c-be25-1a0486fb9ca6.JPG)
