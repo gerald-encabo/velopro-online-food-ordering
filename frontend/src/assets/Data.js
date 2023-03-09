@@ -77,6 +77,7 @@ const products = [
     image02: bacon_burger_2,
     image03: bacon_burger_3,
     category: "Burger",
+    popular: "yes",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
   },
 
@@ -88,6 +89,7 @@ const products = [
     image02: cheese_burger_2,
     image03: cheese_burger_3,
     category: "Burger",
+    popular: "yes",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
   },
 
@@ -131,6 +133,7 @@ const products = [
     image02: hawaiian_pizza_2,
     image03: hawaiian_pizza_3,
     category: "Pizza",
+    popular: "yes",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
@@ -142,6 +145,7 @@ const products = [
     image02: margherita_pizza_2,
     image03: margherita_pizza_3,
     category: "Pizza",
+    popular: "yes",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
@@ -164,6 +168,7 @@ const products = [
     image02: maki_sushi_2,
     image03: maki_sushi_3,
     category: "Sushi",
+    popular: "yes",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
@@ -175,6 +180,7 @@ const products = [
     image02: nigiri_sushi_2,
     image03: nigiri_sushi_3,
     category: "Sushi",
+    popular: "yes",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
@@ -208,6 +214,7 @@ const products = [
     image02: taco_al_pastor_2,
     image03:  taco_al_pastor_3,
     category: "Taco",
+    popular: "yes",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
@@ -219,6 +226,7 @@ const products = [
     image02: taco_de_birria_2,
     image03:  taco_de_birria_3,
     category: "Taco",
+    popular: "yes",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 

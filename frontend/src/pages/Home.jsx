@@ -56,24 +56,25 @@ const Home = () => {
 
   useEffect(()=>{
     if(category === 'ALL') {
-      setAllProducts(products)
+      const filteredProducts = products.filter(item => item.popular === 'yes')
+      setAllProducts(filteredProducts)
     }
 
     if(category === 'BURGER') {
-      const filteredProducts = products.filter(item => item.category === 'Burger')
+      const filteredProducts = products.filter(item => item.category === 'Burger' && item.popular === 'yes')
       setAllProducts(filteredProducts)
     }
 
     if(category === 'PIZZA') {
-      const filteredProducts = products.filter(item => item.category === 'Pizza')
+      const filteredProducts = products.filter(item => item.category === 'Pizza' && item.popular === 'yes')
       setAllProducts(filteredProducts)
     }
     if(category === 'SUSHI') {
-      const filteredProducts = products.filter(item => item.category === 'Sushi')
+      const filteredProducts = products.filter(item => item.category === 'Sushi' && item.popular === 'yes')
       setAllProducts(filteredProducts)
     }
     if(category === 'TACO') {
-      const filteredProducts = products.filter(item => item.category === 'Taco')
+      const filteredProducts = products.filter(item => item.category === 'Taco' && item.popular === 'yes')
       setAllProducts(filteredProducts)
     }
   }, [category])
