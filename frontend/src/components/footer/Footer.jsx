@@ -18,7 +18,7 @@ const Footer = () => {
               <Link to='/home'>
                 <BsVimeo className='footer-logo_icon' />
               </Link>
-              <h5>Velo<span>Pro</span> Food Delivery</h5>
+              <h5>Velo<span>Pro</span> Online Food Ordering</h5>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam illum vero necessitatibus consectetur deserunt facere!</p>
             </div>
           </Col>
