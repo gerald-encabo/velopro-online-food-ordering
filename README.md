@@ -1,5 +1,5 @@
-## VeloPro Online Food Delivery
-
+## VeloPro Food Delivery
+ 
 VeloPro is a react app for online food ordering and delivery with a variety of food of choice!
 
 #### FrontEnd: <br/>
